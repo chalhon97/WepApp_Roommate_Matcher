@@ -1,0 +1,47 @@
+<h1 id='create_listings_greeting'>Hey <%=@user.firstname %>! Here's where you can create and edit your listings :)</h1>
+
+<div id='create_listings_container_listings_page'>
+
+	<h2 class='signformhtwo'> Create Listing </h2>
+
+<form method ="POST" action="/create_listing" enctype="multipart/form-data">
+<p id="returnmessage"></p>
+<label>Upload Images: </label>
+<input type="file" name="myfile" placeholder="Upload your image here" accept="image" capture="camera">
+<br>
+
+<label>About Your Space: </label>
+<textarea id='descriptionbox'type="text" name="caption" placeholder="Space Description"/> </textarea>
+<br>
+
+<label>Your Ideal Borough </label>
+<input type="text" name="borough" placeholder="Borough"/>
+ 
+<br>
+
+<label >Preferred Minimum Age of Roommate: </label>
+<input type="text" placeholder="Roommate Minimum Age" name="minage">
+<br>
+
+<label> Preferred Maximum Age of Roommate: </label>
+<input type="text" placeholder="Roommate Maximum Age" name="maxage">
+<br>
+
+<label>Would you like your Roommate to be the same gender as you?: </label><input type="text" placeholder="(Yes or No)" 
+name="sex">
+<br>
+
+<label id="smoking">Do you mind if your Roommate is a smoker? </label><input type="text" id="smoker" placeholder="(Yes or No)" name="smoking">
+<br>
+<label id="pets"> Would your ideal roommate own any pets?  </label><input type="text" id="pet" placeholder="(Yes or No)" name="pets">
+<br> 
+
+<label id="stateplace">What is the minimum amount you are looking to spend?</label><input type="text" name="minprice" placeholder="Minimum spending amount" name="">
+<br>
+<label id="cityplace"> What is the maximum amount you are willing to spend?  </label><input type="text" name="maxprice" placeholder="Maximum spending amount" name="">
+<br>
+<input type='submit' value='Submit'> </input> 
+
+</form>
+
+</div>

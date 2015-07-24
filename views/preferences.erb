@@ -1,0 +1,47 @@
+<div id='signup_container_preferences_page'>
+<h1 id='createlistingshone'> This page will allow you to redo your preferneces in case they may have changed :)
+
+	
+
+	<h2 class='signformhtwo'> Preferences Change </h2>
+
+<form method ="POST" action="/signup">
+   
+<p id="returnmessage"></p>
+<label>Name: </label>
+<input type="text" name="firstname" placeholder="First Name"/>
+<input type="text" name="lastname" placeholder="Last Name"/>
+<br>
+<label>UserName: </label>
+<input type="text" name="username" placeholder="UserName"/>
+<br>
+
+<label>Email: </label>
+<input type="text" name="email" placeholder="Email"/>
+
+<br>
+
+<label id="newpassword">Password: </label><input type="password" id="pass" placeholder="New password" name="newPassword">
+<input id="renewpassword" type="password" id="pass2" name="password" placeholder="New password" name="repeatNewPassword">
+
+<br>
+<label id="birthday">Birthday: </label><input type="text" id="birth" placeholder="(month/year/date)" name="birthdate">
+<br>
+<label id="sex">Sex: </label><input type="text" id="MorF" placeholder="(Male Or Female)" name="sex">
+<br>
+<label id="smoking">Are you a smoker? </label><input type="text" id="smoker" placeholder="(Yes or No)" name="smoking">
+<br>
+<label id="pets">Do you own any pets?  </label><input type="text" id="pet" placeholder="(Yes or No)" name="pets">
+<br> 
+<p id='followinginfo'> ONLY FILL IN THE FOLLOWING IF YOU'RE LOOKING FOR A ROOM </p> 
+
+<label id="stateplace">In what state are you looking to rent?  </label><input type="text" name="state" placeholder="State" name="">
+<br>
+<label id="cityplace">In what city are you looking to rent?  </label><input type="text" name="city" placeholder="City" name="">
+<br>
+<label id="price">How much are you looking to spend on rent each month? <br> </label><input type="text" name="price" placeholder="example- (200-3000)" name="price">
+<input type="submit" id="submit" value="Submit"/>
+
+</form>
+
+</div>

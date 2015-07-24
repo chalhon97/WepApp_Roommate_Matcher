@@ -1,0 +1,186 @@
+body{
+background: url(https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg) no-repeat fixed center;
+background-size:cover;
+overflow: auto;
+z-index: 1;
+}
+header{
+background-color:black;
+opacity: .8;
+width: 100%;
+height: 100px;
+}
+#ulnavbar{
+text-align: center;
+word-spacing:75px;
+font-size: 24px;
+width:60%;
+height: 15px;
+display: inline-block;
+position: relative;
+margin:0;
+color:white;
+}
+a{
+color:white;
+text-decoration: none;
+}
+.linavbar{
+font-size: 24;
+display: inline;
+text-align: center;
+overflow: auto;
+color:white;
+}
+#Room_Match{
+font-size: 32px;
+margin-bottom: none;
+color:white;
+display: inline-block;
+}
+#signin_container{
+width:700px;
+height: 150px;
+margin-left:50%; 
+font-size: 24px;
+height:110px;
+background-color:rgba(255,255,255,0.8);
+line-height: 20px;
+margin-bottom: 50px;
+word-spacing: 30px;
+}
+#signup_container{
+width:700px;
+height: 500px;
+margin-left:50%; 
+background-color:rgba(255,255,255,0.8);
+font-size: 24px;
+word-spacing: 5px;
+}
+#followinginfo{
+	text-decoration: bold;
+	font-size: 18px;
+text-align: center;
+}
+.signformhtwo{
+	text-align: center;
+	padding-top: 5px;
+
+}
+#signintextcontainer{
+	text-align: center;
+	text-decoration: bold;
+	margin-top: 25px;
+	background-color:rgba(255,255,255,0.8);
+	float: left;
+	width: 650px;
+	font-size: 36px;
+	line-height: 50px;
+	height: 670px;
+}
+.welcome_name{
+}
+.yourpreferences{
+color: black;
+font-size: 19px;
+font-weight: bold;
+text-decoration: underline;
+}
+#preferenceshone{
+	background-color:rgba(255,255,255,0.7);
+	text-align: center;
+	height: 50px;
+}
+#signup_container_preferences_page{
+width:500px;
+height: 600px;
+background-color:rgba(255,255,255,0.9);
+font-size: 24px;
+word-spacing: 5px;
+float:center;
+margin:0 auto;
+}
+#logoutbutton{
+text-decoration: none;
+color: black;
+padding: .1px;
+background-color: aqua;
+font-size: 20px;
+font-weight: bold;
+}
+#createlistingshomepage{
+text-decoration: none;
+color:black;
+font-size: 20px;
+font-weight: bold;
+}
+#create_listings_container_listings_page{
+width:835px;
+height: 600px;
+background-color:rgba(255,255,255,0.8);
+font-size: 24px;
+word-spacing: 5px;
+float:center;
+margin:0 auto;
+line-height: 40px;
+}
+#descriptionbox{
+	width: 300px;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#create_listings_greeting{
+	text-align:center;
+	background-color:rgba(255,255,255,0.6);
+}
+#about_text_container{
+	text-align: center;
+	text-decoration: bold;
+	margin-top: 25px;
+	background-color:rgba(255,255,255,0.8);
+	width: 650px;
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+	margin:0 auto;
+}
+.createlistingshomepage{
+text-decoration: underline;
+font-size: 19px;
+color: black;
+font-weight: bolder;
+float:left;
+}
+.listingstablehome{
+background-color:rgba(255,255,255,0.8);
+width: 300px;
+float: right;
+text-align: center;
+display: inline-block;
+overflow: scroll;
+height: 700px;
+width: 400px;
+float:right;
+}
+.mylistingstablehome{
+	background-color:rgba(255,255,255,0.8);
+	width: 300px;	
+	display: inline-block;
+	float: left;
+}
+.img_listings{
+	/*border: 5px solid pink;*/
+width: 300px;
+height: 80px;
+}
+.mylistings{
+
+text-align: center;
+margin-left: 20px;
+height: 500px;
+background-color:rgba(255,255,255,0.8);
+width: 300px;	
+	display: inline-block;
+}
+

@@ -1,0 +1,66 @@
+<div id='signintextcontainer'>
+	<p> Rent too high? Looking for a roommate?</p>
+
+		<p> Room Match is a totally FREE roommate connection service that allows you to find AFFORDABLE apartments all across NYC! </p>
+		<p>You can add your own listings and even search all listings in your area! </p>
+		 <p>With Room Match at your fingertips, you'll never have to worry about finding a roommate again! </p>
+</div>
+
+
+<div id='signin_container'>
+	<h2 class='signformhtwo'> Sign-In </h2>
+<form method="POST" action="/signin">
+<label for="username">Username</label>
+<input type="text" name="username">
+<br>
+<label for "password">Password </label>
+<input type="password" name="password">
+<input type="submit">
+</form>
+
+</div>
+
+<div id='signup_container'>
+
+	<h2 class='signformhtwo'> Sign-Up </h2>
+
+<form method ="POST" action="/signup">
+   
+<p id="returnmessage"></p>
+<label>Name: </label>
+<input type="text" name="firstname" placeholder="First Name"/>
+<input type="text" name="lastname" placeholder="Last Name"/>
+<br>
+<label>UserName: </label>
+<input type="text" name="username" placeholder="UserName"/>
+<br>
+
+<label>Email: </label>
+<input type="text" name="email" placeholder="Email"/>
+
+<br>
+
+<label id="newpassword">Password: </label><input type="password" id="pass" placeholder="New password" name="newPassword">
+<input id="renewpassword" type="password" id="pass2" name="password" placeholder="New password" name="repeatNewPassword">
+
+<br>
+<label id="birthday">Birthday: </label><input type="text" id="birth" placeholder="(month/year/date)" name="birthdate">
+<br>
+<label id="sex">Sex: </label><input type="text" id="MorF" placeholder="(Male Or Female)" name="sex">
+<br>
+<label id="smoking">Are you a smoker? </label><input type="text" id="smoker" placeholder="(Yes or No)" name="smoking">
+<br>
+<label id="pets">Do you own any pets?  </label><input type="text" id="pet" placeholder="(Yes or No)" name="pets">
+<br> 
+<p id='followinginfo'> ONLY FILL IN THE FOLLOWING IF YOU'RE LOOKING FOR A ROOM </p> 
+<br>
+<label id="stateplace">In what state are you looking to rent?  </label><input type="text" name="state" placeholder="State" name="">
+<br>
+<label id="cityplace">In what city are you looking to rent?  </label><input type="text" name="city" placeholder="City" name="">
+<br>
+<label id="price">How much are you looking to spend on rent each month? <br> </label><input type="text" name="price" placeholder="example- (200-3000)" name="price">
+<input type="submit" id="submitsignupform" value="Submit"/>
+
+</form>
+
+</div>

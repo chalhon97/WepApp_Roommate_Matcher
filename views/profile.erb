@@ -1,0 +1,11 @@
+<h2> Welcome, <%=@user.firstname %></h2>
+<a id='yourpreferences' href='/preferences'>Your preferences:</a> 
+
+<h3>Check out some listings:</h3>
+  <% @listings.each do |listing| %>
+  <%= listing.caption%>></a>
+  <h3> My Listings </h3>
+
+  <% end %> 
+ <h3>Create Listing</h3>    
+  <h3> Bookmarked Listings </h3>
